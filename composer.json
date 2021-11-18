@@ -1,5 +1,5 @@
 {
-    "name": "createam/contact",
+    "name": "Createam/Contact",
     "description": "this will send email to admin and save contact query in database",
     "type": "library",
     "license": "MIT",
