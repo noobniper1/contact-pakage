@@ -1,0 +1,20 @@
+{
+    "name": "createam/contact",
+    "description": "this will send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "walid yahia mahammed",
+            "email": "w.yahiamhamed@createam-dz.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Createam\\Contact\\": "src/"
+        }
+    }
+
+}
