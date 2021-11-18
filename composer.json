@@ -15,6 +15,14 @@
         "psr-4": {
             "Createam\\Contact\\": "src/"
         }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Createam\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 
 }
