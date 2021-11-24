@@ -14,9 +14,6 @@ class ContactServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/config/contact.php' => config_path('contact.php')
         ]);
-        if($this->app->runningInConsole()){
-            $this->registerPublishing();
-        }
     }
 
 
@@ -25,10 +22,4 @@ class ContactServiceProvider extends ServiceProvider
 
     }
 
-    protected function registerPublishing()
-    {
-        $this->publishes([
-            __DIR__.'/../config/contact.php'=>config_path('contact.php')
-        ], 'contact-config' );
-    }
 }
